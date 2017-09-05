@@ -1,0 +1,24 @@
+{
+  "name": "gh-pages-worktree-example",
+  "version": "1.0.0",
+  "description": "A repository to show deploying to GitHub pages with the git worktree command",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist/* && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tewson/gh-pages-worktree-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tewson/gh-pages-worktree-example/issues"
+  },
+  "homepage": "https://github.com/tewson/gh-pages-worktree-example#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "rimraf": "^2.6.1",
+    "webpack": "^3.5.5"
+  }
+}
